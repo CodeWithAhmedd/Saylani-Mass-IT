@@ -47,3 +47,13 @@
 // console.log('invalid '+invalid);
 
 
+let num = [9,8,4,6,3,7,2,1,5,0]
+let indexVal = num [0]
+for (let i = 0; i < num.length; i++) {
+ 
+
+    if(num[i] < indexVal) {
+        indexVal = num[i]
+    }
+}
+console.log(indexVal)
