@@ -1,4 +1,5 @@
-// Question 1
+// // Question 1
+
 let orders = [1, 2, 3, 5];
 
 function findMissingNumber(arr) {
@@ -10,3 +11,14 @@ function findMissingNumber(arr) {
 
 let missingNumber = findMissingNumber(orders);
 console.log("Missing number is:", missingNumber);
+
+// _____________________________________________________________________________________
+// let order = [1, 2, 3, 5];
+// let missingNumber = 4;
+// let missingNumberArray = [];
+// order.forEach((item, index) => {
+//     if (order[index + 1] - item > 1) {
+//         missingNumberArray.push(item + 1);
+//     }
+// });
+// console.log("Missing number is:", missingNumberArray);
